@@ -1,0 +1,17 @@
+.idea/*
+.idea
+*.pyc
+*.logs
+/tmp/*
+/logs/*
+__pycache__
+*.pid
+.sonar/
+*.properties
+.DS_Store
+venv/
+.coverage
+.env
+env
+static/
+media/
