@@ -1,7 +1,7 @@
 # nipi 
 git clone https://github.com/duetooyou/nipi
 
-pip install -r requirments.txt
+pip install -r requirements.txt
 
 Из директории проекта rpc_server.py для запуска rpc сервера
 
