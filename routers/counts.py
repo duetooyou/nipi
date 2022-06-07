@@ -11,7 +11,6 @@ router = APIRouter()
              tags=['counts'])
 async def get_npv_result(input_data: InputParameters,
                          settings: Settings = Depends(get_settings)) -> str:
-    print(InputParameters)
     npv_rpc = await CountNPVClient().connect(settings)
     response = await npv_rpc.call(input_data.year, input_data.percent)
     return response
